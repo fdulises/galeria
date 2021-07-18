@@ -25,5 +25,3 @@
 			return self::$con->lastInsertRowID();
 		}
 	}
-	
-	dbcon::open('galeriaDB.db');
